@@ -1,0 +1,7 @@
+The kernel executable is installed here. If there are multiple versions of
+zambesii installed on the same drive, their executables are named differently.
+
+Since zambesii is mostly a microkernel, its executable size should not usually
+exceed about 2MiB. At any rate, only the files that are absolutely necessary to
+boot and orient the kernel are included along with it in the EKFS.
+

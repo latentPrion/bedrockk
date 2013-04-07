@@ -1,0 +1,4 @@
+This is a compilation of all officially installed 64-bit UDI drivers, in a
+format which would enable the kernel to quickly locate the correct driver to
+match a set of enumeration attributes.
+

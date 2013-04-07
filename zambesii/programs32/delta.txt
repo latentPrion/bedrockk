@@ -1,0 +1,2 @@
+Delta is the command line and graphical configuration utility for the Zambesii
+kernel, and an essential part of bedrockk.

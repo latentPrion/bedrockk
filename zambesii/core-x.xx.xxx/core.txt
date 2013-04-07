@@ -1,0 +1,27 @@
+
+The "core" folder in a zambesii distribution is a read only directory that
+only holds no real files. Instead, it is a mount of the kernel's endo-kernel FS.
+
+This way, the user can see what is inside of EKFS just by opening this folder.
+EKFS drivers for Zambesii by nature do not support writing, so the EKFS is
+irrevocably read-only. The only way to modify the EKFS that was included with a
+kernel image is to modify (generally rebuild) the kernel image itself.
+
+At some future point, we will begin to support separate EKFSs, and then a user
+can edit/rebuild his/her EKFS separately from his/her kernel.
+
+	drivers/
+		Drivers packaged in the kernel EKFS.
+	libraries/
+		Core libraries, such as libzbzcore.
+	include/
+		Core language includes, such as zambesii.h, config.h, scaling.h.
+	programs/
+		Core programs such as the first userspace process.
+	resources/
+		Core resources, such as a boot banner image, or core
+		configuration files.
+	LICENSE.txt
+		Explanation of the licensing terms.
+	license-gplv2.txt:
+		Non-commercial use license.
