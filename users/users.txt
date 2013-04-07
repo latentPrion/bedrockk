@@ -1,0 +1,2 @@
+One folder per user; not very different from any other OS environment.
+

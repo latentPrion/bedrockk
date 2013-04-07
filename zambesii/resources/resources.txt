@@ -1,0 +1,2 @@
+Resources used across bedrock programs such as maybe, common images, or license
+text-bodies, etc.

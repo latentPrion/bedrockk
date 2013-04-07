@@ -1,0 +1,9 @@
+32-bit Userspace installed programs go here.
+
+The desktop environment etc. qualify to be placed here, since I do not consider
+such programs to be part of the zbz-os level specification.
+
+These program components together make up the "distribution" end of a Zambesii
+distro. Programs such as the installed window manager(s), graphical delta tools,
+web browers, etc etc can be found here.
+
